@@ -13,7 +13,7 @@ node *insertH(int d, node *head){
     return head;
 }
 
-node *insert(int d, node *ptr){
+node *Insert(int d, node *ptr){
     node *temp = malloc(sizeof(node));
     temp->data = d;
     temp->next = NULL;
@@ -113,4 +113,25 @@ node *rev(node *head){
     return head;
 }
 
+node *Sort(node *head){
+    node *ptr = head, *temp = NULL;
+    node *start = head;
+    int tempvar  = 0;
+    int passesFl = 0;
+    while(ptr != NULL){
+        temp = start;
+        while(temp->next != NULL){
+            if(temp->data > temp->next->data){
+                tempvar = temp->data;
+                temp->data = temp->next->data;
+                temp->next->data = tempvar;
+                passesFl = 1;
+            }
+            temp = temp->next;
+        }
+        ptr = ptr->next;
+        if(passesFl==0) break;
+    }
+    return head;
+}
 #endif // SINGLELINKED_H_INCLUDED
