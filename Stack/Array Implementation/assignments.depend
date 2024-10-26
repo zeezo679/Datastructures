@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1729958234 source:d:\assignments\stack.c
+	"stack.h"
+
+1729962047 d:\assignments\stack.h
+
+1729955343 source:d:\assignments\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1729956500 source:d:\assignments\program2.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1729958090 source:d:\assignments\program3.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1729958699 source:d:\assignments\testcopystack.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1729958820 source:d:\assignments\question10.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1729959491 source:d:\assignments\question11.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1729960375 source:d:\assignments\question12.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1729960517 source:d:\assignments\question13.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
