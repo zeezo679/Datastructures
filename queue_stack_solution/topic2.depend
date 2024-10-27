@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1730048398 source:d:\topic2\queue.c
+	"queue.h"
+
+1730052955 d:\topic2\queue.h
+
+1730054735 source:d:\topic2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+	<string.h>
+	"functions.h"
+
+1730051377 source:d:\topic2\stack.c
+	"stack.h"
+
+1730051417 d:\topic2\stack.h
+
+1730054444 d:\topic2\functions.h
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+	"stack.h"
+	<string.h>
+
